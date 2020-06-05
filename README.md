@@ -1,7 +1,7 @@
 #Simple Feature columns for ball strike
 
 Create a numeric cols use strike ball & ball type
-```
+``` python
 for header in ['strike_ball', 'ball_type']:
   feature_columns.append(feature_column.numeric_column(header))
 ```
